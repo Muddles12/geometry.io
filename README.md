@@ -4,21 +4,22 @@
   <meta charset="UTF-8">
   <title>Five Nights at Freddy's</title>
   <style>
-    html, body {
+    body {
+      background-color: #000;
+      text-align: center;
       margin: 0;
       padding: 0;
-      height: 100%;
-      overflow: hidden;
-      background: black;
     }
     iframe {
       border: none;
-      width: 100vw;
-      height: 100vh;
+      width: 960px;
+      height: 600px;
     }
   </style>
 </head>
 <body>
+  <h1 style="color: white;">Play Five Nights at Freddy's</h1>
   <iframe src="https://unblocked-games.s3.amazonaws.com/fnaf.html" allowfullscreen></iframe>
+  <p><a href="https://unblocked-games.s3.amazonaws.com/fnaf.html" target="_blank" style="color: white;">Play Fullscreen</a></p>
 </body>
 </html>
