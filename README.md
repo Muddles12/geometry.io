@@ -92,6 +92,20 @@
       }
     }
 
+    .fullscreen-btn {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: #222;
+      border: 1px solid #555;
+      padding: 6px 12px;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 4px;
+      z-index: 20;
+    }
+
     @media (max-width: 900px) {
       .ad {
         display: none;
@@ -118,20 +132,42 @@
   <div class="container">
     <div class="ad">Ad Space</div>
 
-    <div class="game-wrapper">
+    <div class="game-wrapper" id="gameContainer">
       <div id="loader">
         <div class="spinner"></div>
         Loading game...
       </div>
       <iframe
+        id="gameFrame"
         src="https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/"
         allowfullscreen
-        onload="document.getElementById('loader').style.display='none';">
+        onload="hideLoader()">
       </iframe>
+      <button class="fullscreen-btn" onclick="openFullscreen()">Fullscreen</button>
     </div>
 
     <div class="ad">Ad Space</div>
   </div>
+
+  <script>
+    function hideLoader() {
+      const loader = document.getElementById('loader');
+      if (loader) loader.style.display = 'none';
+    }
+
+    function openFullscreen() {
+      const iframe = document.getElementById("gameFrame");
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      }
+    }
+  </script>
 
 </body>
 </html>
