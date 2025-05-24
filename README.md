@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Drift Hunters</title>
+  <title>Five Nights at Freddy's</title>
   <style>
     body {
-      margin: 0;
-      background-color: black;
+      background-color: #000;
       text-align: center;
+      margin: 0;
+      padding: 0;
     }
     iframe {
-      width: 100%;
-      height: 100vh;
       border: none;
+      width: 960px;
+      height: 600px;
     }
   </style>
 </head>
 <body>
-  <h1 style="color: white;">Drift Hunters</h1>
-  <iframe src="https://drifthunters.online/" allowfullscreen></iframe>
+  <h1 style="color: white;">Play Five Nights at Freddy's</h1>
+  <iframe src="https://unblocked-games.s3.amazonaws.com/fnaf.html" allowfullscreen></iframe>
+  <p><a href="https://unblocked-games.s3.amazonaws.com/fnaf.html" target="_blank" style="color: white;">Play Fullscreen</a></p>
 </body>
 </html>
