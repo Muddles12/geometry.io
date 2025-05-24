@@ -19,7 +19,7 @@
 </head>
 <body>
   <h1 style="color: white;">Play Five Nights at Freddy's</h1>
-  <iframe src="https://unblocked-games.s3.amazonaws.com/fnaf.html" allowfullscreen></iframe>
+  <iframe src="https://classic.minecraft.net" allowfullscreen></iframe>
   <p><a href="https://unblocked-games.s3.amazonaws.com/fnaf.html" target="_blank" style="color: white;">Play Fullscreen</a></p>
 </body>
 </html>
