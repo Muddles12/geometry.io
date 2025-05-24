@@ -2,24 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Super Mini Racing</title>
+  <title>Drift Hunters</title>
   <style>
     body {
-      background-color: #000;
-      text-align: center;
       margin: 0;
-      padding: 0;
+      background-color: black;
+      text-align: center;
     }
     iframe {
+      width: 100%;
+      height: 100vh;
       border: none;
-      width: 960px;
-      height: 540px;
     }
   </style>
 </head>
 <body>
-  <h1 style="color: white;">Play Super Mini Racing</h1>
-  <iframe src="https://cloud.freezenova.com/games/2022/unity4/super-mini-racing/index.html" allowfullscreen></iframe>
-  <p><a href="https://cloud.freezenova.com/games/2022/unity4/super-mini-racing/index.html" target="_blank" style="color: white;">Play Fullscreen</a></p>
+  <h1 style="color: white;">Drift Hunters</h1>
+  <iframe src="https://drifthunters.online/" allowfullscreen></iframe>
 </body>
 </html>
