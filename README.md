@@ -4,6 +4,11 @@
   <meta charset="UTF-8" />
   <title>Five Nights at Freddy's - Web Version</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ✅ Google AdSense Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4623021982506157"
+    crossorigin="anonymous"></script>
+
   <style>
     html, body {
       margin: 0;
@@ -139,11 +144,7 @@
   </header>
 
   <div class="container">
-    <!-- Left Ad Column -->
-    <div class="ad">
-      <script async="async" data-cfasync="false" src="//pl26737971.profitableratecpm.com/c6e0f7e66d37d7acd376a980cdeb14b6/invoke.js"></script>
-      <div id="container-c6e0f7e66d37d7acd376a980cdeb14b6"></div>
-    </div>
+    <div class="ad">Ad Space</div>
 
     <div class="game-column">
       <div class="game-wrapper" id="gameContainer">
@@ -160,22 +161,34 @@
         </iframe>
       </div>
 
-      <button class="fullscreen-btn" onclick="window.open('https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/', '_blank')">
-        Open in Fullscreen Tab
+      <button class="fullscreen-btn" onclick="openFullscreen()">
+        Open Fullscreen
       </button>
     </div>
 
-    <!-- Right Ad Column -->
-    <div class="ad">
-      <script async="async" data-cfasync="false" src="//pl26737971.profitableratecpm.com/c6e0f7e66d37d7acd376a980cdeb14b6/invoke.js"></script>
-      <div id="container-c6e0f7e66d37d7acd376a980cdeb14b6"></div>
-    </div>
+    <div class="ad">Ad Space</div>
   </div>
 
   <script>
     function hideLoader() {
       const loader = document.getElementById('loader');
       if (loader) loader.style.display = 'none';
+    }
+
+    function openFullscreen() {
+      const iframe = document.getElementById('gameFrame');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      } else {
+        // fallback: open in new tab
+        window.open(iframe.src, '_blank');
+      }
     }
   </script>
 
