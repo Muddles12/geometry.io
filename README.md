@@ -2,24 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Five Nights at Freddy's</title>
+  <title>FNaF Game</title>
   <style>
     body {
-      background-color: #000;
-      text-align: center;
       margin: 0;
-      padding: 0;
+      font-family: sans-serif;
+    }
+    .game-container {
+      width: 100%;
+      max-width: 960px;
+      margin: 40px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
     iframe {
+      width: 100%;
+      height: 700px;
       border: none;
-      width: 960px;
-      height: 600px;
     }
   </style>
 </head>
 <body>
-  <h1 style="color: white;">Play Five Nights at Freddy's</h1>
-  <iframe src="https://unblocked-games.s3.amazonaws.com/fnaf.html" allowfullscreen></iframe>
-  <p><a href="https://unblocked-games.s3.amazonaws.com/fnaf.html" target="_blank" style="color: white;">Play Fullscreen</a></p>
+  <h1 style="text-align: center;">Play FNaF</h1>
+  <div class="game-container">
+    <iframe src="https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/" allowfullscreen></iframe>
+  </div>
 </body>
 </html>
