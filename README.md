@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Unblocked Game</title>
+  <title>Super Mini Racing</title>
   <style>
     body {
       background-color: #000;
@@ -12,14 +12,14 @@
     }
     iframe {
       border: none;
-      width: 800px;
-      height: 600px;
+      width: 960px;
+      height: 540px;
     }
   </style>
 </head>
 <body>
-  <h1 style="color: white;">Play the Game</h1>
-  <iframe src="https://scratch.mit.edu/projects/10128407/embed" allowfullscreen></iframe>
-  <p><a href="https://scratch.mit.edu/projects/10128407/embed">Play Fullscreen</a></p>
+  <h1 style="color: white;">Play Super Mini Racing</h1>
+  <iframe src="https://cloud.freezenova.com/games/2022/unity4/super-mini-racing/index.html" allowfullscreen></iframe>
+  <p><a href="https://cloud.freezenova.com/games/2022/unity4/super-mini-racing/index.html" target="_blank" style="color: white;">Play Fullscreen</a></p>
 </body>
 </html>
