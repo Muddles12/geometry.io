@@ -28,7 +28,6 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
-      overflow-x: hidden;
     }
 
     header {
@@ -60,15 +59,61 @@
       padding: 1.5rem;
       border-radius: var(--radius);
       box-shadow: 0 20px 50px rgba(255, 0, 79, 0.1);
-      animation: fadeUp 1s ease-out;
+      position: relative;
+    }
+
+    .iframe-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      border-radius: 12px;
+      background: #000;
     }
 
     iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
-      height: 720px;
+      height: 100%;
       border: none;
       border-radius: 12px;
+    }
+
+    .loader {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       background: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+      border-radius: 12px;
+    }
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 6px solid #333;
+      border-top: 6px solid var(--primary);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 1rem;
+    }
+
+    .loading-text {
+      color: var(--text);
+      font-size: 1.1rem;
+      opacity: 0.8;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
     }
 
     footer {
@@ -83,16 +128,7 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
     @media (max-width: 768px) {
-      iframe {
-        height: 500px;
-      }
-
       header h1 {
         font-size: 2rem;
       }
@@ -107,7 +143,17 @@
 
   <main>
     <div class="game-container">
-      <iframe src="https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/" allowfullscreen></iframe>
+      <div class="iframe-wrapper">
+        <div class="loader" id="loader">
+          <div class="spinner"></div>
+          <div class="loading-text">Loading...</div>
+        </div>
+        <iframe 
+          src="https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/" 
+          allowfullscreen 
+          onload="document.getElementById('loader').style.display='none';">
+        </iframe>
+      </div>
     </div>
   </main>
 
