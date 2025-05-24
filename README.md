@@ -43,9 +43,16 @@
       color: #888;
     }
 
-    .game-wrapper {
+    .game-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       flex: 1;
       max-width: 1024px;
+    }
+
+    .game-wrapper {
+      width: 100%;
       aspect-ratio: 16 / 9;
       background-color: #000;
       border: 3px solid #222;
@@ -93,17 +100,19 @@
     }
 
     .fullscreen-btn {
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      background: #222;
-      border: 1px solid #555;
-      padding: 6px 12px;
+      margin-top: 0.75rem;
+      padding: 10px 20px;
+      background-color: black;
       color: white;
-      font-size: 14px;
+      border: 2px solid white;
+      border-radius: 5px;
+      font-size: 16px;
       cursor: pointer;
-      border-radius: 4px;
-      z-index: 20;
+      transition: all 0.2s ease;
+    }
+
+    .fullscreen-btn:hover {
+      background-color: #111;
     }
 
     @media (max-width: 900px) {
@@ -132,18 +141,20 @@
   <div class="container">
     <div class="ad">Ad Space</div>
 
-    <div class="game-wrapper" id="gameContainer">
-      <div id="loader">
-        <div class="spinner"></div>
-        Loading game...
+    <div class="game-column">
+      <div class="game-wrapper" id="gameContainer">
+        <div id="loader">
+          <div class="spinner"></div>
+          Loading game...
+        </div>
+        <iframe
+          id="gameFrame"
+          src="https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/"
+          allowfullscreen
+          onload="hideLoader()">
+        </iframe>
       </div>
-      <iframe
-        id="gameFrame"
-        src="https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/"
-        allowfullscreen
-        onload="hideLoader()">
-      </iframe>
-      <button class="fullscreen-btn" onclick="openFullscreen()">Fullscreen</button>
+      <button class="fullscreen-btn" onclick="openFullscreen()">Enter Fullscreen</button>
     </div>
 
     <div class="ad">Ad Space</div>
