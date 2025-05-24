@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Game Page</title>
+  <title>Unblocked Game</title>
   <style>
     body {
+      background-color: #000;
       text-align: center;
-      background-color: #f0f0f0;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
     iframe {
       border: none;
@@ -17,8 +18,8 @@
   </style>
 </head>
 <body>
-  <h1>Play My Embedded Game</h1>
-  <iframe src="https://itch.io/embed-upload/5388616?color=333333" allowfullscreen></iframe>
-  <p><a href="https://nusan.itch.io/pixel-shooter">Play Fullscreen</a></p>
+  <h1 style="color: white;">Play the Game</h1>
+  <iframe src="https://scratch.mit.edu/projects/10128407/embed" allowfullscreen></iframe>
+  <p><a href="https://openprocessing.org/sketch/2378651/">Play Fullscreen</a></p>
 </body>
 </html>
