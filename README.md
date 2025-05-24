@@ -156,13 +156,16 @@
         </iframe>
       </div>
 
-      <!--  New Fullscreen Button Below -->
       <button class="fullscreen-btn" onclick="window.open('https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/', '_blank')">
         Open in Fullscreen Tab
       </button>
     </div>
 
-    <div class="ad">Ad Space</div>
+    <!-- ✅ Replaced Ad Block with Adsterra Script -->
+    <div class="ad">
+      <script async="async" data-cfasync="false" src="//pl26737971.profitableratecpm.com/c6e0f7e66d37d7acd376a980cdeb14b6/invoke.js"></script>
+      <div id="container-c6e0f7e66d37d7acd376a980cdeb14b6"></div>
+    </div>
   </div>
 
   <script>
@@ -171,6 +174,12 @@
       if (loader) loader.style.display = 'none';
     }
   </script>
-<script type="text/javascript"> var infolinks_pid = 3436637; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+  
+  <!-- Optional: Infolinks or other ad networks -->
+  <script type="text/javascript">
+    var infolinks_pid = 3436637;
+    var infolinks_wsid = 0;
+  </script>
+  <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 </body>
 </html>
