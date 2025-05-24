@@ -150,11 +150,16 @@
         <iframe
           id="gameFrame"
           src="https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/"
+          allow="fullscreen"
           allowfullscreen
           onload="hideLoader()">
         </iframe>
       </div>
-      <button class="fullscreen-btn" onclick="openFullscreen()">Enter Fullscreen</button>
+
+      <!--  New Fullscreen Button Below -->
+      <button class="fullscreen-btn" onclick="window.open('https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/', '_blank')">
+        Open in Fullscreen Tab
+      </button>
     </div>
 
     <div class="ad">Ad Space</div>
@@ -164,19 +169,6 @@
     function hideLoader() {
       const loader = document.getElementById('loader');
       if (loader) loader.style.display = 'none';
-    }
-
-    function openFullscreen() {
-      const iframe = document.getElementById("gameFrame");
-      if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-      } else if (iframe.mozRequestFullScreen) {
-        iframe.mozRequestFullScreen();
-      } else if (iframe.webkitRequestFullscreen) {
-        iframe.webkitRequestFullscreen();
-      } else if (iframe.msRequestFullscreen) {
-        iframe.msRequestFullscreen();
-      }
     }
   </script>
 
