@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Paper Minecraft - Unblocked Version</title>
+  <h1>Trouble loading?  Try refreshing the page</h1>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- ✅ Google AdSense Script -->
