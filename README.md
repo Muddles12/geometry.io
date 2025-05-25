@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Five Nights at Freddy's - Web Version</title>
+  <title>Paper Minecraft - Unblocked Version</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- ✅ Google AdSense Script -->
@@ -58,50 +58,19 @@
 
     .game-wrapper {
       width: 100%;
-      aspect-ratio: 16 / 9;
       background-color: #000;
       border: 3px solid #222;
       border-radius: 8px;
       overflow: hidden;
       position: relative;
+      max-width: 100%;
     }
 
     iframe {
       width: 100%;
-      height: 100%;
+      height: 500px;
       border: none;
       display: block;
-    }
-
-    #loader {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: #000;
-      z-index: 10;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 1.2rem;
-      color: #fff;
-    }
-
-    .spinner {
-      width: 40px;
-      height: 40px;
-      border: 5px solid #333;
-      border-top: 5px solid #ff004f;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-      margin-right: 1rem;
-    }
-
-    @keyframes spin {
-      to {
-        transform: rotate(360deg);
-      }
     }
 
     .fullscreen-btn {
@@ -140,7 +109,7 @@
 <body>
 
   <header>
-    Five Nights at Freddy's
+    Paper Minecraft - Unblocked
   </header>
 
   <div class="container">
@@ -148,16 +117,11 @@
 
     <div class="game-column">
       <div class="game-wrapper" id="gameContainer">
-        <div id="loader">
-          <div class="spinner"></div>
-          Loading game...
-        </div>
         <iframe
           id="gameFrame"
-          src="https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/"
-          allow="fullscreen"
-          allowfullscreen
-          onload="hideLoader()">
+          src="https://scratch.mit.edu/projects/10128407/embed"
+          allowtransparency="true"
+          allowfullscreen>
         </iframe>
       </div>
 
@@ -170,11 +134,6 @@
   </div>
 
   <script>
-    function hideLoader() {
-      const loader = document.getElementById('loader');
-      if (loader) loader.style.display = 'none';
-    }
-
     function openFullscreen() {
       const iframe = document.getElementById('gameFrame');
       if (iframe.requestFullscreen) {
