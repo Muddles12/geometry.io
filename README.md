@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name='admaven-placement' content=BqdY6rTr8>
   <meta charset="UTF-8" />
   <title>Paper Minecraft - Unblocked Version</title>
   <h1>Trouble loading?  Try refreshing the page</h1>
