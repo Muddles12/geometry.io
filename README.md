@@ -3,7 +3,7 @@
 <head>
   <meta name='admaven-placement' content=BqdY6rTr8>
   <meta charset="UTF-8" />
-  <title>Paper Minecraft - Unblocked Version</title>
+  <title>Unblocked Games</title>
   <h1>Trouble loading?  Try refreshing the page</h1>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -122,9 +122,11 @@
         <iframe
           id="gameFrame"
           src="https://ubg98.github.io/super-liquid-soccer-unblockedz.html"
-          allowtransparency="true"
-          allowfullscreen>
+          allow="fullscreen"
+          allowfullscreen
+          allowtransparency="true">
         </iframe>
+
       </div>
 
       <button class="fullscreen-btn" onclick="openFullscreen()">
