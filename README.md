@@ -140,19 +140,23 @@
   <script>
     function openFullscreen() {
       const iframe = document.getElementById('gameFrame');
-      if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-      } else if (iframe.mozRequestFullScreen) {
-        iframe.mozRequestFullScreen();
-      } else if (iframe.webkitRequestFullscreen) {
-        iframe.webkitRequestFullscreen();
-      } else if (iframe.msRequestFullscreen) {
-        iframe.msRequestFullscreen();
+      const container = document.getElementById('gameContainer');
+
+  // Try fullscreen on container instead of iframe
+      if (container.requestFullscreen) {
+        container.requestFullscreen();
+      } else if (container.webkitRequestFullscreen) {
+        container.webkitRequestFullscreen();
+      } else if (container.mozRequestFullScreen) {
+        container.mozRequestFullScreen();
+      } else if (container.msRequestFullscreen) {
+        container.msRequestFullscreen();
       } else {
-        // fallback: open in new tab
-        window.open(iframe.src, '_blank');
+    // fallback to opening in new tab
+        window.open(iframe.src, '_blank').focus();
       }
     }
+
   </script>
 
 </body>
