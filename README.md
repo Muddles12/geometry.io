@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name='admaven-placement' content=BqdY6rTr8>
   <meta charset="UTF-8" />
-  <title>Unblocked Games</title>
-  <h1>Trouble loading?  Try refreshing the page</h1>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="admaven-placement" content="BqdY6rTr8" />
+  <title>Unblocked Games</title>
 
   <!-- ✅ Google AdSense Script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4623021982506157"
@@ -114,6 +113,8 @@
     Mini Football - Unblocked
   </header>
 
+  <h1 style="text-align:center;">Trouble loading? Try refreshing the page</h1>
+
   <div class="container">
     <div class="ad">Ad Space</div>
 
@@ -126,7 +127,6 @@
           allowfullscreen
           allowtransparency="true">
         </iframe>
-
       </div>
 
       <button class="fullscreen-btn" onclick="openFullscreen()">
@@ -139,9 +139,11 @@
 
   <script>
     function openFullscreen() {
-      window.open(iframe.src, '_blank').focus();
+      const iframe = document.getElementById("gameFrame");
+      if (iframe && iframe.src) {
+        window.open(iframe.src, '_blank').focus();
+      }
     }
-
   </script>
 
 </body>
