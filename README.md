@@ -54,7 +54,7 @@
       flex-direction: column;
       align-items: center;
       flex: 1;
-      max-width: 1024px;
+      max-width: 1324px;
     }
 
     .game-wrapper {
@@ -110,7 +110,7 @@
 <body>
 
   <header>
-    Mini Football - Unblocked
+    Fun Games - Unblocked
   </header>
 
   <h1 style="text-align:center;">Trouble loading? Try refreshing the page</h1>
