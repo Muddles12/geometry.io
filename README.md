@@ -122,7 +122,7 @@
       <div class="game-wrapper" id="gameContainer">
         <iframe
           id="gameFrame"
-          src="https://ubg98.github.io/super-liquid-soccer-unblockedz.html"
+          src="[https://ubg98.github.io/super-liquid-soccer-unblockedz.html](https://unblocked-games.s3.amazonaws.com/index.html)"
           allow="fullscreen"
           allowfullscreen
           allowtransparency="true">
