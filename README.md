@@ -117,17 +117,16 @@
 
   <div class="container">
     <div class="ad">
-      <!-- Adsterra Ad Script -->
       <script type="text/javascript">
-         atOptions = {
-            'key' : '4957283',
-            'format' : 'iframe',
-            'height' : 600,
-            'width' : 160,
-            'params' : {}
-         };
-         document.write('<scr' + 'ipt type="text/javascript" src="//www.profitabledisplaynetwork.com/4957283/invoke.js"></scr' + 'ipt>');
+        atOptions = {
+          'key' : 'b787854a835849689d77d4fb0a51ae13',
+          'format' : 'iframe',
+          'height' : 600,
+          'width' : 160,
+          'params' : {}
+        };
       </script>
+      <script type="text/javascript" src="//www.highperformanceformat.com/b787854a835849689d77d4fb0a51ae13/invoke.js"></script>
     </div>
 
     <div class="game-column">
@@ -147,17 +146,16 @@
     </div>
 
     <div class="ad">
-      <!-- Adsterra Ad Script -->
       <script type="text/javascript">
-         atOptions = {
-            'key' : '4957283',
-            'format' : 'iframe',
-            'height' : 600,
-            'width' : 160,
-            'params' : {}
-         };
-         document.write('<scr' + 'ipt type="text/javascript" src="//www.profitabledisplaynetwork.com/4957283/invoke.js"></scr' + 'ipt>');
+        atOptions = {
+          'key' : 'b787854a835849689d77d4fb0a51ae13',
+          'format' : 'iframe',
+          'height' : 600,
+          'width' : 160,
+          'params' : {}
+        };
       </script>
+      <script type="text/javascript" src="//www.highperformanceformat.com/b787854a835849689d77d4fb0a51ae13/invoke.js"></script>
     </div>
   </div>
 
