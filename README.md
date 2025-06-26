@@ -10,6 +10,9 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4623021982506157"
      crossorigin="anonymous"></script>
 
+  <!-- ✅ ProfitablerateCPM Script -->
+  <script type="text/javascript" src="//pl27018894.profitableratecpm.com/c7/d2/0a/c7d20aa3a7f2b63bbb43a07a165583ad.js"></script>
+
   <style>
     html, body {
       margin: 0;
@@ -40,13 +43,6 @@
     .ad {
       width: 160px;
       height: 600px;
-      background-color: #1a1a1a;
-      border: 2px dashed #444;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.9rem;
-      color: #888;
     }
 
     .game-column {
@@ -116,6 +112,8 @@
   <h1 style="text-align:center;">Trouble loading? Try refreshing the page</h1>
 
   <div class="container">
+
+    <!-- ✅ Left Adsterra Ad -->
     <div class="ad">
       <script type="text/javascript">
         atOptions = {
@@ -145,6 +143,7 @@
       </button>
     </div>
 
+    <!-- ✅ Right Adsterra Ad -->
     <div class="ad">
       <script type="text/javascript">
         atOptions = {
