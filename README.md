@@ -116,7 +116,19 @@
   <h1 style="text-align:center;">Trouble loading? Try refreshing the page</h1>
 
   <div class="container">
-    <div class="ad">Ad Space</div>
+    <div class="ad">
+      <!-- Adsterra Ad Script -->
+      <script type="text/javascript">
+         atOptions = {
+            'key' : '4957283',
+            'format' : 'iframe',
+            'height' : 600,
+            'width' : 160,
+            'params' : {}
+         };
+         document.write('<scr' + 'ipt type="text/javascript" src="//www.profitabledisplaynetwork.com/4957283/invoke.js"></scr' + 'ipt>');
+      </script>
+    </div>
 
     <div class="game-column">
       <div class="game-wrapper" id="gameContainer">
@@ -134,7 +146,19 @@
       </button>
     </div>
 
-    <div class="ad">Ad Space</div>
+    <div class="ad">
+      <!-- Adsterra Ad Script -->
+      <script type="text/javascript">
+         atOptions = {
+            'key' : '4957283',
+            'format' : 'iframe',
+            'height' : 600,
+            'width' : 160,
+            'params' : {}
+         };
+         document.write('<scr' + 'ipt type="text/javascript" src="//www.profitabledisplaynetwork.com/4957283/invoke.js"></scr' + 'ipt>');
+      </script>
+    </div>
   </div>
 
   <script>
