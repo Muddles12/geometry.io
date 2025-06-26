@@ -88,7 +88,8 @@
 
     @media (max-width: 900px) {
       .ad {
-        display: none;
+        display: block;
+        margin: 10px auto
       }
 
       .container {
